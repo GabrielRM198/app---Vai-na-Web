@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #F1B641;
+    border: 8px solid black;
+    border-radius: 10px;
+}
+
+.menu{
+    width: 85%;
+    height: 40px;
+    display: flex;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figure{
+    width: 20px;
+    display: flex;
+    
+    margin: 10px;
+}
+
+.flavo{
+    font-size: 1.8rem;
+}
+
+.minimenu{
+    width: 20px;
+    height: 25px;
+    cursor: pointer;
+}
+.bolsa{
+    width: 20px;
+    height: 25px;
+    cursor: pointer;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    
+}
+h3{
+    font-size: 1.3rem;
+    margin: 20px;
+    
+}
+p{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.choose{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+input{
+    margin-left: 40px;
+    cursor: pointer;
+}
+label{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.radio{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    appearance: none;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.contador{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+button{
+    width: 40px;
+    border: none;
+    background-color: #F1B641;
+    cursor: pointer;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 30px;
+    background-color: black;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F1B641;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
